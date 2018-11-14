@@ -1,0 +1,886 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Ubuntu部署dass · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../gitbook.html" />
+    
+    
+    <link rel="prev" href="../jupyterhub.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../jupyter-notebook.html">
+            
+                <a href="../jupyter-notebook.html">
+            
+                    
+                    Jupyter Notebook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../chapter1.html">
+            
+                <a href="../chapter1.html">
+            
+                    
+                    JupyterLab
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../chapter1/jupyterlabjie-kou.html">
+            
+                <a href="../chapter1/jupyterlabjie-kou.html">
+            
+                    
+                    Jupyterlab接口文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../chapter1/mo-xing-shu-ju-jie-gou-she-ji-xiang-qing.html">
+            
+                <a href="../chapter1/mo-xing-shu-ju-jie-gou-she-ji-xiang-qing.html">
+            
+                    
+                    模型数据结构设计详情
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../chapter1/mo-xing-gong-neng-ying-yong-ji-zhu.html">
+            
+                <a href="../chapter1/mo-xing-gong-neng-ying-yong-ji-zhu.html">
+            
+                    
+                    模型功能应用技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../chapter1/dass.html">
+            
+                <a href="../chapter1/dass.html">
+            
+                    
+                    dass
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.4.1" data-path="../chapter1/dass/dassgong-neng-gai-yao-tu-jie.html">
+            
+                <a href="../chapter1/dass/dassgong-neng-gai-yao-tu-jie.html">
+            
+                    
+                    dass功能概要图解
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../jupyterhub.html">
+            
+                <a href="../jupyterhub.html">
+            
+                    
+                    JupyterHub
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.4.1" data-path="ubuntubu-shu-dass.html">
+            
+                <a href="ubuntubu-shu-dass.html">
+            
+                    
+                    Ubuntu部署dass
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../gitbook.html">
+            
+                <a href="../gitbook.html">
+            
+                    
+                    gitbook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../gitlab.html">
+            
+                <a href="../gitlab.html">
+            
+                    
+                    gitlab
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../gitlab/gitchang-yong-ming-ling.html">
+            
+                <a href="../gitlab/gitchang-yong-ming-ling.html">
+            
+                    
+                    git常用命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../gitlab/gitlabbu-shu-zhi-fu-wu-qi.html">
+            
+                <a href="../gitlab/gitlabbu-shu-zhi-fu-wu-qi.html">
+            
+                    
+                    gitlab部署至服务器
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../influxdbshi-xu-shu-ju-ku.html">
+            
+                <a href="../influxdbshi-xu-shu-ju-ku.html">
+            
+                    
+                    Influxdb时序数据库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../influxdbshi-xu-shu-ju-ku/influxdbde-shi-yong.html">
+            
+                <a href="../influxdbshi-xu-shu-ju-ku/influxdbde-shi-yong.html">
+            
+                    
+                    Influxdb的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../redminebu-shu.html">
+            
+                <a href="../redminebu-shu.html">
+            
+                    
+                    redmine部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../docker.html">
+            
+                <a href="../docker.html">
+            
+                    
+                    Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../nbviewerbu-shu.html">
+            
+                <a href="../nbviewerbu-shu.html">
+            
+                    
+                    NBViewer部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Ubuntu部署dass</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="ubuntu&#x90E8;&#x7F72;dass">ubuntu&#x90E8;&#x7F72;dass</h2>
+<p>&#x200B;Dass&#x4F5C;&#x4E3A;&#x652F;&#x6301;&#x591A;&#x7528;&#x6237;&#x7684; Dass Notebook&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x7528;&#x4E8E;&#x521B;&#x5EFA;&#x3001;&#x7BA1;&#x7406;&#x3001;&#x4EE3;&#x7406;&#x591A;&#x4E2A;Dass Notebook&#x5B9E;&#x529B;&#x3002;&#x5728;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x90E8;&#x7F72;Dass&#xFF0C;&#x6269;&#x5C55;&#x591A;&#x7528;&#x6237;&#x767B;&#x5F55;&#x8BA4;&#x8BC1;&#x673A;&#x5236;&#x548C;&#x7528;&#x6237;&#x6743;&#x9650;&#x8BA4;&#x8BC1;&#xFF0C;&#x5B9E;&#x73B0;&#x7528;&#x6237;&#x4E4B;&#x95F4;&#x76F8;&#x4E92;&#x534F;&#x4F5C;&#xFF0C;&#x8D44;&#x6E90;&#x7BA1;&#x7406;&#x7B49;&#x529F;&#x80FD;&#xFF0C;&#x4EE5;&#x4F7F;&#x5B9E;&#x9645;&#x9879;&#x76EE;&#x5F00;&#x53D1;&#x7684;&#x5FEB;&#x6377;&#x9AD8;&#x6548;&#x3002;</p>
+<p>anaconda&#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x6253;&#x5305;&#x7684;&#x96C6;&#x5408;&#xFF0C;&#x91CC;&#x9762;&#x9884;&#x88C5;&#x597D;&#x4E86;conda&#x3001;&#x67D0;&#x4E2A;&#x7248;&#x672C;&#x7684;python&#x3001;&#x4F17;&#x591A;&#x5305;&#x548C;&#x79D1;&#x5B66;&#x8BA1;&#x7B97;&#x7B49;&#x5DE5;&#x5177;&#xFF0C;anaconda&#x5229;&#x7528;&#x5DE5;&#x5177;conda&#x547D;&#x4EE4;&#x6765;&#x8FDB;&#x884C;package&#x548C;environment&#x7BA1;&#x7406;&#x3002;&#x56E0;&#x6B64;&#x5728;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x5B89;&#x88C5;anaconda&#xFF0C;&#x4E3A;&#x5176;&#x63D0;&#x4F9B;&#x4E00;&#x4E2A;&#x7BA1;&#x7406;&#x5E73;&#x53F0;&#xFF0C;&#x6240;&#x4EE5;&#x4F7F;&#x7528;conda&#x547D;&#x4EE4;&#x5B89;&#x88C5;Dasshub&#x3002;</p>
+<p>&#x5B89;&#x88C5;nginx&#x4F7F;&#x5176;&#x80FD;&#x591F;&#x5B9E;&#x73B0;&#x8D1F;&#x8F7D;&#x5747;&#x8861;&#xFF0C;&#x89E3;&#x51B3;&#x5E76;&#x53D1;&#x80FD;&#x529B;&#xFF0C;&#x63D0;&#x9AD8;&#x5E94;&#x7528;&#x5904;&#x7406;&#x6027;&#x80FD;&#xFF0C;&#x63D0;&#x4F9B;&#x6545;&#x969C;&#x8F6C;&#x79FB;&#x7B49;&#x4F5C;&#x7528;&#x3002;Docker&#x955C;&#x50CF;&#x4E3A;&#x5176;&#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x4E2A;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7684;&#x73AF;&#x5883;&#x3002;&#x7CFB;&#x7EDF;&#x57FA;&#x4E8E;GitLab&#x63D0;&#x4F9B;&#x7B2C;&#x4E09;&#x65B9;&#x8BA4;&#x8BC1;&#x673A;&#x5236;&#xFF0C;&#x4F7F;&#x5176;&#x80FD;&#x591F;&#x4F7F;&#x7528;Gitlab&#x7528;&#x6237;&#x8BA4;&#x8BC1;&#x673A;&#x5236;&#x767B;&#x5F55;Dass&#xFF0C;&#x4ECE;&#x800C;&#x80FD;&#x591F;&#x66F4;&#x597D;&#x5730;&#x5B9E;&#x73B0;Gitlab&#x548C;Dass&#x7684;&#x76F8;&#x4E92;&#x8FDE;&#x63A5;&#x3002;</p>
+<h3 id="&#x8FD0;&#x884C;&#x73AF;&#x5883;">&#x8FD0;&#x884C;&#x73AF;&#x5883;</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x540D;&#x79F0;</th>
+<th style="text-align:left">&#x63A8;&#x8350;&#x7248;&#x672C;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Linux&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;</td>
+<td style="text-align:left">Ubuntu&#xFF08;18.04&#xFF09;</td>
+</tr>
+<tr>
+<td style="text-align:left">Anaconda&#x73AF;&#x5883;&#x7BA1;&#x7406;</td>
+<td style="text-align:left">5.3.0&#xFF08;&#x6700;&#x65B0;&#x7248;&#xFF09;</td>
+</tr>
+<tr>
+<td style="text-align:left">Docker&#x5BB9;&#x5668;</td>
+<td style="text-align:left">17.12.1&#xFF08;&#x6700;&#x65B0;&#x7248;&#xFF09;</td>
+</tr>
+<tr>
+<td style="text-align:left">Nginx&#x4EE3;&#x7406;</td>
+<td style="text-align:left">1.14.0&#xFF08;Ubuntu&#x7248;&#xFF09;</td>
+</tr>
+<tr>
+<td style="text-align:left">Python&#x8BED;&#x97F3;</td>
+<td style="text-align:left">3.6.5&#xFF08;&#x7A33;&#x5B9A;&#x7248;&#xFF09;</td>
+</tr>
+<tr>
+<td style="text-align:left">Node.js</td>
+<td style="text-align:left">8.12.0</td>
+</tr>
+<tr>
+<td style="text-align:left">TypeScript</td>
+<td style="text-align:left">1.7</td>
+</tr>
+</tbody>
+</table>
+<p>&#x6240;&#x6709;&#x7684;&#x64CD;&#x4F5C;&#x90FD;&#x8981;&#x5728;&#x5B89;&#x5168;&#x94FE;&#x63A5;&#x670D;&#x52A1;&#x5668;&#x7684;&#x524D;&#x63D0;&#x4E0B;&#xFF0C;&#x4EE5;&#x4E0B;&#x5C31;&#x662F;&#x5728;Ubuntu18.04&#x4E0B;&#x5B89;&#x88C5;&#x5404;&#x6A21;&#x5757;&#x513F;&#x7684;&#x64CD;&#x4F5C;&#x547D;&#x4EE4;&#x3002;</p>
+<h4 id="install-anaconda">Install Anaconda</h4>
+<ul>
+<li><h5 id="&#x83B7;&#x53D6;anaconda">&#x83B7;&#x53D6;anaconda</h5>
+</li>
+</ul>
+<p>&#x4EE5;sudo&#x975E;root&#x7528;&#x6237;&#x8EAB;&#x4EFD;&#x767B;&#x5F55;&#x5230;&#x60A8;&#x7684;Ubuntu 18.04&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x8FDB;&#x5165;&#x8BE5;`/tmp`&#x76EE;&#x5F55;&#x5E76;&#x4F7F;&#x7528;`curl`&#x4E0B;&#x8F7D;&#x60A8;&#x4ECE;Anaconda&#x7F51;&#x7AD9;&#x590D;&#x5236;&#x7684;&#x94FE;&#x63A5;&#xFF1A;</p>
+<pre><code class="lang-py">curl -O https://repo.continuum.io/archive/Anaconda3<span class="hljs-number">-5.0</span><span class="hljs-number">.1</span>-Linux-x86_64.sh 
+<span class="hljs-comment"># &#x4E3A;&#x83B7;&#x53D6;&#x547D;&#x4EE4;&#xFF0C; &#x9ED8;&#x8BA4;&#x5728;&#x5F53;&#x524D;&#x8DEF;&#x5F84;&#x4E0B;&#x5B58;&#x50A8;&#x3002;</span>
+</code></pre>
+<ul>
+<li><h5 id="&#x9A8C;&#x8BC1;&#x5B89;&#x88C5;&#x7A0B;&#x5E8F;&#x7684;&#x6570;&#x636E;&#x5B8C;&#x6210;&#x6027;">&#x9A8C;&#x8BC1;&#x5B89;&#x88C5;&#x7A0B;&#x5E8F;&#x7684;&#x6570;&#x636E;&#x5B8C;&#x6210;&#x6027;</h5>
+</li>
+</ul>
+<p>&#x901A;&#x8FC7;SHA-256&#x6548;&#x9A8C;&#x548C;&#x901A;&#x8FC7;&#x52A0;&#x5BC6;&#x54C8;&#x5E0C;&#x9A8C;&#x8BC1;&#x786E;&#x4FDD;&#x5B89;&#x88C5;&#x7A0B;&#x5E8F;&#x7684;&#x5B8C;&#x6574;&#x6027;&#xFF1A;</p>
+<pre><code>sha256sum Anaconda3-5.0.1-Linux-x86_64.sh
+</code></pre><pre><code>Output
+09f53738b0cd3bb96f5b1bac488e5528df9906be2480fe61df40e0e0d19e3d48  Anaconda3-5.2.0-Linux-x86_64.sh
+</code></pre><ul>
+<li><h5 id="&#x8FD0;&#x884C;anaconda&#x5B89;&#x88C5;&#x6587;&#x4EF6;">&#x8FD0;&#x884C;Anaconda&#x5B89;&#x88C5;&#x6587;&#x4EF6;</h5>
+</li>
+</ul>
+<pre><code>bash Anaconda3-5.0.1-Linux-x86_64.sh
+</code></pre><p>&#x60A8;&#x5C06;&#x6536;&#x5230;&#x4EE5;&#x4E0B;&#x8F93;&#x51FA;&#x4EE5;&#x67E5;&#x770B;&#x8BB8;&#x53EF;&#x534F;&#x8BAE;&#xFF0C;`ENTER`&#x76F4;&#x5230;&#x60A8;&#x5230;&#x8FBE;&#x7ED3;&#x5C3E;&#x3002;&#x60A8;&#x5C06;&#x6536;&#x5230;&#x4EE5;&#x4E0B;&#x8F93;&#x51FA;&#x4EE5;&#x67E5;&#x770B;&#x8BB8;&#x53EF;&#x534F;&#x8BAE;&#xFF0C;`ENTER`&#x76F4;&#x5230;&#x60A8;&#x5230;&#x8FBE;&#x7ED3;&#x5C3E;&#x3002;</p>
+<pre><code>Output
+
+Welcome to Anaconda3 5.2.0
+
+In order to continue the installation process, please review the license
+agreement.
+Please, press ENTER to continue
+&gt;&gt;&gt;
+...
+Do you approve the license terms? [yes|no]
+</code></pre><p>&#x5F53;&#x60A8;&#x5230;&#x8FBE;&#x8BB8;&#x53EF;&#x8BC1;&#x672B;&#x5C3E;&#x65F6;&#xFF0C;`yes`&#x53EA;&#x8981;&#x60A8;&#x540C;&#x610F;&#x5B8C;&#x6210;&#x5B89;&#x88C5;&#x7684;&#x8BB8;&#x53EF;&#x8BC1;&#x5373;&#x53EF;&#x952E;&#x5165;&#x3002;</p>
+<ul>
+<li><h5 id="&#x5B8C;&#x6210;&#x5B89;&#x88C5;&#x8FC7;&#x7A0B;">&#x5B8C;&#x6210;&#x5B89;&#x88C5;&#x8FC7;&#x7A0B;</h5>
+</li>
+</ul>
+<p>&#x4E00;&#x65E6;&#x60A8;&#x540C;&#x610F;&#x8BB8;&#x53EF;&#xFF0C;&#x7CFB;&#x7EDF;&#x5C06;&#x63D0;&#x793A;&#x60A8;&#x9009;&#x62E9;&#x5B89;&#x88C5;&#x4F4D;&#x7F6E;&#x3002;&#x60A8;&#x53EF;&#x4EE5;&#x6309;`ENTER`&#x63A5;&#x53D7;&#x9ED8;&#x8BA4;&#x4F4D;&#x7F6E;&#xFF0C;&#x6216;&#x6307;&#x5B9A;&#x5176;&#x4ED6;&#x4F4D;&#x7F6E;&#x3002;</p>
+<pre><code>Anaconda3 will now be installed into this location:
+/home/sammy/anaconda3
+
+  - Press ENTER to confirm the location
+  - Press CTRL-C to abort the installation
+  - Or specify a different location below
+
+[/home/sammy/anaconda3] &gt;&gt;&gt;
+</code></pre><p>&#x6B64;&#x65F6;&#xFF0C;&#x5B89;&#x88C5;&#x5C06;&#x7EE7;&#x7EED;&#x3002;&#x8BF7;&#x6CE8;&#x610F;&#xFF0C;&#x5B89;&#x88C5;&#x8FC7;&#x7A0B;&#x9700;&#x8981;&#x4E00;&#x4E9B;&#x65F6;&#x95F4;&#x3002;</p>
+<ul>
+<li><h5 id="&#x9009;&#x62E9;&#x9009;&#x9879;">&#x9009;&#x62E9;&#x9009;&#x9879;</h5>
+</li>
+</ul>
+<p>&#x5B89;&#x88C5;&#x5B8C;&#x6210;&#x540E;&#xFF0C;&#x4F60;&#x5C06;&#x53D7;&#x5230;&#x4EE5;&#x4E0B;&#x8F93;&#x51FA;&#xFF1A;</p>
+<pre><code>Output
+...
+installation finished.
+Do you wish the installer to prepend the Anaconda3 install location
+to PATH in your /home/sammy/.bashrc ? [yes|no]
+[no] &gt;&gt;&gt;
+</code></pre><p>&#x5EFA;&#x8BAE;&#x60A8;&#x952E;&#x5165;`yes`&#x4EE5;&#x4F7F;&#x7528;&#x8BE5;`conda`&#x547D;&#x4EE4;&#x3002;</p>
+<p>&#x63A5;&#x4E0B;&#x6765;&#xFF0C;&#x7CFB;&#x7EDF;&#x5C06;&#x63D0;&#x793A;&#x60A8;&#x4E0B;&#x8F7D;Visual Studio Code&#xFF0C;&#x60A8;&#x53EF;&#x4EE5;&#x4ECE;[&#x5B98;&#x65B9;VSCode&#x7F51;&#x7AD9;](<a href="https://code.visualstudio.com/%29&#x4E86;&#x89E3;&#x66F4;&#x591A;&#x4FE1;&#x606F;&#x3002;" target="_blank">https://code.visualstudio.com/)&#x4E86;&#x89E3;&#x66F4;&#x591A;&#x4FE1;&#x606F;&#x3002;</a></p>
+<p>&#x8F93;&#x5165;`yes`&#x8981;&#x5B89;&#x88C5;&#x548C;`no`&#x62D2;&#x7EDD;&#x3002;</p>
+<ul>
+<li><h5 id="&#x6FC0;&#x6D3B;&#x5B89;&#x88C5;">&#x6FC0;&#x6D3B;&#x5B89;&#x88C5;</h5>
+</li>
+</ul>
+<p>&#x60A8;&#x73B0;&#x5728;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x6FC0;&#x6D3B;&#x5B89;&#x88C5;&#xFF1A;</p>
+<pre><code>source ~/.bashrc
+</code></pre><ul>
+<li><h5 id="&#x6D4B;&#x8BD5;&#x5B89;&#x88C5;">&#x6D4B;&#x8BD5;&#x5B89;&#x88C5;</h5>
+</li>
+</ul>
+<p>&#x4F7F;&#x7528;&#x6B64;`conda`&#x547D;&#x4EE4;&#x6D4B;&#x8BD5;&#x548C;&#x6FC0;&#x6D3B;&#xFF1A;</p>
+<pre><code>conda list
+</code></pre><p>&#x60A8;&#x5C06;&#x6536;&#x5230;&#x901A;&#x8FC7;Anaconda&#x5B89;&#x88C5;&#x53EF;&#x7528;&#x7684;&#x6240;&#x6709;&#x8F6F;&#x4EF6;&#x5305;&#x7684;&#x8F93;&#x51FA;&#x3002;&#x5982;&#x6CA1;&#x6709;&#x8BF7;&#x81EA;&#x884C;&#x68C0;&#x67E5;&#x4EE5;&#x4E0A;&#x6B65;&#x9AA4;&#x662F;&#x5426;&#x51FA;&#x9519;&#x3002;</p>
+<h3 id="install-dass">Install Dass</h3>
+<p>&#x5148;&#x51B3;&#x6761;&#x4EF6;&#xFF08;Prerequisites&#xFF09;</p>
+<ul>
+<li>&#x57FA;&#x4E8E;Linux/Unix&#x7684;&#x7CFB;&#x7EDF;&#x3002;</li>
+<li>Python3.5&#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;&#x4E86;&#x89E3;&#x4F7F;&#x7528;**pip**&#x6216;**conda**&#x5B89;&#x88C5;Python&#x5305;&#x662F;&#x6709;&#x5E2E;&#x52A9;&#x7684;&#x3002;</li>
+<li><p>nodejs/npm&#x3002; &#x4F7F;&#x7528;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7684;&#x8F6F;&#x4EF6;&#x5305;&#x7BA1;&#x7406;&#x5668;&#x5B89;&#x88C5;nodejs/npm&#x3002;</p>
+<pre><code>     ---&#x5982;&#x679C;&#x60A8;&#x6B63;&#x5728;&#x4F7F;&#x7528;conda&#xFF0C;&#x5C06;&#x901A;&#x8FC7;conda&#x4E3A;&#x60A8;&#x5B89;&#x88C5;nodejs&#x548C;npm&#x4F9D;&#x8D56;&#x9879;&#x3002;
+
+     ---&#x5982;&#x679C;&#x60A8;&#x6B63;&#x5728;&#x4F7F;&#x7528;pip&#xFF0C;&#x8BF7;&#x5B89;&#x88C5;&#x6700;&#x65B0;&#x7248;&#x672C;&#x7684; \[nodejs / npm\]\(https://docs.npmjs.com/getting-started/installing-node\)&#x3002;&#x4F8B;  
+
+        &#x5982;&#xFF0C;&#x4F7F;&#x7528;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x5728;Linux&#xFF08;Debian / Ubuntu&#xFF09;&#x4E0A;&#x5B89;&#x88C5;&#x5B83;&#xFF1A;
+</code></pre></li>
+</ul>
+<pre><code>sudo apt-get install npm nodejs-legacy
+</code></pre><pre><code>          &#x8BE5;\`nodejs-legacy\`&#x8F6F;&#x4EF6;&#x5305;&#x5B89;&#x88C5;\`node\`&#x53EF;&#x6267;&#x884C;&#x6587;&#x4EF6;&#xFF0C;&#x76EE;&#x524D;npm&#x9700;&#x8981;&#x5728;Debian / Ubuntu&#x4E0A;&#x8FD0;&#x884C;&#x3002;
+</code></pre><ul>
+<li>&#x7528;&#x4E8E;HTTPS&#x901A;&#x4FE1;&#x7684;TLS&#x8BC1;&#x4E66;&#x548C;&#x5BC6;&#x94A5;&#x3002;</li>
+<li>&#x57DF;&#x540D;&#x6216;&#x516C;&#x7F51;IP&#x3002;</li>
+</ul>
+<h4 id="install">Install</h4>
+<ul>
+<li>&#x4F7F;&#x7528;conda&#x5B89;&#x88C5;Dass&#xFF1A;</li>
+</ul>
+<pre><code># Dass &#x672A;&#x5B58;&#x5728;conda&#x5B58;&#x50A8;&#x5E93;&#x4E2D;&#xFF0C; &#x6B64;&#x5904;&#x9700;&#x8981;&#x6307;&#x5B9A;&#x4F7F;&#x7528;conda-forge&#x5B58;&#x50A8;&#x5E93;&#x3002;
+conda install -c conda-forge Dass     
+# installs Dass and proxy
+</code></pre><ul>
+<li>&#x4F7F;&#x7528;`pip`&#x548C;`npm`&#x5B89;&#x88C5;Dass:</li>
+</ul>
+<pre><code>python3 -m pip install Dass
+npm install -g configurable-http-proxy
+# needed if running the notebook servers locally
+</code></pre><p>&#x6D4B;&#x8BD5;&#x60A8;&#x7684;&#x5B89;&#x88C5;&#x3002;&#x5982;&#x679C;&#x5DF2;&#x5B89;&#x88C5;&#xFF0C;&#x8FD9;&#x4E9B;&#x547D;&#x4EE4;&#x5E94;&#x8FD4;&#x56DE;&#x5305;&#x7684;&#x5E2E;&#x52A9;&#x5185;&#x5BB9;&#xFF1A;</p>
+<pre><code>Dass -h 
+configurable-http-proxy -h
+</code></pre><p>&#x5982;&#x6B63;&#x5E38;&#x8FD4;&#x56DE;&#x5305;&#x7684;&#x5E2E;&#x52A9;&#x5185;&#x5BB9;&#x5373;&#x53EF;&#xFF0C; &#x672A;&#x51FA;&#x73B0;&#x8BF7;&#x81EA;&#x884C;&#x68C0;&#x67E5;&#x4EE5;&#x4E0A;&#x6B65;&#x9AA4;&#x548C;&#x5148;&#x51B3;&#x6761;&#x4EF6;&#x662F;&#x5426;&#x6EE1;&#x8DB3;</p>
+<h3 id="install-docker">Install Docker</h3>
+<p>&#x7531;&#x4E8E; `apt` &#x6E90;&#x4F7F;&#x7528; HTTPS &#x4EE5;&#x786E;&#x4FDD;&#x8F6F;&#x4EF6;&#x4E0B;&#x8F7D;&#x8FC7;&#x7A0B;&#x4E2D;&#x4E0D;&#x88AB;&#x7BE1;&#x6539;&#x3002;&#x56E0;&#x6B64;&#x6211;&#x4EEC;&#x4F7F;&#x7528;`apt`&#x5B89;&#x88C5;docker&#x3002;</p>
+<ul>
+<li>&#x5B89;&#x88C5;docker&#x955C;&#x50CF;<pre><code>[sudo] apt-get install docker.io
+</code></pre></li>
+</ul>
+<p>&#x7531;&#x4E8E;&#x7F51;&#x7EDC;&#x95EE;&#x9898;&#xFF0C;&#x6B64;&#x8F6F;&#x4EF6;&#x65F6;&#x95F4;&#x8F83;&#x957F;&#x3002;&#x8BF7;&#x7A0D;&#x540E;&#x3002;&#x5982;&#x51FA;&#x73B0;&#x4E2D;&#x65AD;&#xFF0C;&#x8BF7;&#x8FD4;&#x56DE;&#x7EE7;&#x7EED;&#x6267;&#x884C;&#x5373;&#x53EF;&#x3002;</p>
+<p>&#x5B89;&#x88C5;&#x5B8C;&#x6210;&#x4E4B;&#x540E;&#x4F7F;&#x7528;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x542F;&#x52A8;docker&#xFF1A;</p>
+<pre><code>sudo systemctl enable docker
+sudo systemctl start docker
+</code></pre><p>&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;docker&#x547D;&#x4EE4;&#x4F1A;&#x4F7F;&#x7528;Unix socket&#x4E0E;Docker&#x5F15;&#x64CE;&#x901A;&#x8BAF;&#x3002;&#x800C;&#x53EA;&#x6709;`root`&#x7528;&#x6237;&#x548C;`docker`&#x7EC4;&#x7684;</p>
+<p>&#x7528;&#x6237;&#x624D;&#x80FD;&#x8BBF;&#x95EE;Docker&#x5F15;&#x64CE;&#x7684;Unix socket&#x3002;&#x5904;&#x4E8E;&#x5B89;&#x5168;&#x8003;&#x8651;&#xFF0C; &#x4E00;&#x822C;Linux&#x7CFB;&#x7EDF;&#x4E0A;&#x4E0D;&#x4F1A;&#x76F4;&#x63A5;&#x4F7F;&#x7528;`root`&#x7528;&#x6237;&#x3002;&#x56E0;&#x6B64;&#x6700;&#x597D;&#x7684;&#x505A;&#x6CD5;&#x662F;&#x5C06;&#x9700;&#x8981;&#x4F7F;&#x7528;`docker`&#x7684;&#x7528;&#x6237;&#x52A0;&#x5165;`docker`&#x7528;&#x6237;&#x7EC4;&#x3002;</p>
+<h3 id="&#x5EFA;&#x7ACB;docker&#x7528;&#x6237;&#x7EC4;">&#x5EFA;&#x7ACB;docker&#x7528;&#x6237;&#x7EC4;</h3>
+<ul>
+<li>&#x521B;&#x5EFA;&#x5C0F;&#x7EC4;&#xFF1A;</li>
+</ul>
+<pre><code>sudo groupadd docker
+</code></pre><ul>
+<li>&#x5C06;&#x5F53;&#x524D;&#x7528;&#x6237;&#x52A0;&#x5165;docker&#x7EC4;&#xFF1A;</li>
+</ul>
+<pre><code>sudo usermod -aG docker $USER
+</code></pre><p>&#x9000;&#x51FA;&#x7EC8;&#x7AEF;&#x5E76;&#x91CD;&#x65B0;&#x767B;&#x5F55;&#x3002;&#x8FDB;&#x884C;&#x4E00;&#x4E0B;&#x6D4B;&#x8BD5;&#xFF1A;</p>
+<pre><code># &#x8FD0;&#x884C;&#x4E00;&#x4E0B;&#x547D;&#x4EE4;&#x5E76;&#x83B7;&#x5F97;&#x4E00;&#x4E0B;&#x8F93;&#x51FA;
+docker run hello-world
+
+Output
+Unable to find image &apos;hello-world:latest&apos; locally
+latest: Pulling from library/hello-world
+ca4f61b1923c: Pull complete
+Digest: sha256:be0cd392e45be79ffeffa6b05338b98ebb16c87b255f48e297ec7f98e123905c
+Status: Downloaded newer image for hello-world:latest
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the &quot;hello-world&quot; image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://cloud.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/engine/userguide/
+</code></pre><p>&#x5B89;&#x88C5;&#x5B8C;&#x6210;&#x5373;&#x53EF;&#x83B7;&#x53D6;Dass&#x4F7F;&#x7528;&#x5BB9;&#x5668;&#x955C;&#x50CF;&#xFF1A;</p>
+<pre><code># &#x641C;&#x7D22;&#x5173;&#x4E8E;DassHub&#x7684;&#x5BB9;&#x5668;&#x955C;&#x50CF;&#xFF0C; &#x5E76;&#x67E5;&#x770B;&#x6700;&#x65B0;&#x7248;&#x672C;&#x3002;
+docker search Dass
+# &#x83B7;&#x53D6;&#x9700;&#x8981;&#x4F7F;&#x7528;&#x7684;&#x955C;&#x50CF;
+docker pull jupyterhub/singleuser:latest
+# &#x540E;&#x671F;&#x53EF;&#x81EA;&#x5B9A;&#x4E49;&#x955C;&#x50CF;&#xFF0C;&#x6B64;&#x63D0;&#x4F9B;&#x4E00;&#x793A;&#x4F8B;&#x3002;
+docker pull sunxr/test:0.1(&#x6B64;&#x955C;&#x50CF;&#x652F;&#x6301;bokeh)
+</code></pre><h3 id="install-nginx">Install nginx</h3>
+<ul>
+<li>&#x5B89;&#x88C5;nginx&#x548C;&#x914D;&#x7F6E;nginx</li>
+</ul>
+<pre><code>[sudo] apt-get install nginx
+/etc/nginx&#xFF1A;nginx&#x914D;&#x7F6E;&#x76EE;&#x5F55;&#x3002;&#x6240;&#x6709;&#x7684;Nginx&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x9A7B;&#x7559;&#x5728;&#x8FD9;&#x91CC;&#x3002; 
+/etc/nginx/nginx.conf&#x4E3B;&#x8981;&#x7684;Nginx&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x3002;&#x8FD9;&#x53EF;&#x4EE5;&#x4FEE;&#x6539;&#x4E3A;&#x5BF9;Nginx&#x5168;&#x5C40;&#x914D;&#x7F6E;&#x8FDB;&#x884C;&#x66F4;&#x6539;&#x3002;
+</code></pre><p>&#x4F7F;&#x7528;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x542F;&#x52A8;Nginx&#xFF1A;</p>
+<pre><code>sudo service nginx start
+</code></pre><p>&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x8F93;&#x5165;&#x670D;&#x52A1;&#x5668;IP&#x56DE;&#x8F66;&#x4E4B;&#x540E;&#xFF0C;&#x663E;&#x793A; **welcome to nginx**&#xFF0C;&#x5219;&#x8868;&#x793A;&#x5B89;&#x88C5;&#x548C;&#x914D;&#x7F6E;&#x6210;&#x529F;&#xFF01;</p>
+<h3 id="dass-config">Dass Config</h3>
+<p>DassHub&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x9700;&#x8981;&#x624B;&#x52A8;&#x751F;&#x6210;&#x3002;</p>
+<p>&#x521B;&#x5EFA;&#x6587;&#x4EF6;&#x76EE;&#x5F55;&#xFF1A;</p>
+<pre><code>mkdir /etc/Dass
+</code></pre><p>&#x8FDB;&#x5165;&#x521B;&#x5EFA;&#x7684;&#x76EE;&#x5F55;:</p>
+<pre><code>cd /etc/Dass
+</code></pre><p>&#x6267;&#x884C;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x751F;&#x6210;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF1A;</p>
+<pre><code>Dass --generate-config
+</code></pre><ul>
+<li>&#x914D;&#x7F6E;Dass&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x3002;</li>
+</ul>
+<pre><code class="lang-py"><span class="hljs-comment">## The public facing ip of the whole DassHub application (specifically</span>
+<span class="hljs-comment">#  referred to as the proxy).</span>
+<span class="hljs-comment">#  </span>
+<span class="hljs-comment">#  This is the address on which the proxy will listen. The default is to listen</span>
+<span class="hljs-comment">#  on all interfaces. This is the only address through which DassHub should be</span>
+<span class="hljs-comment">#  accessed by users.</span>
+<span class="hljs-comment">#  </span>
+<span class="hljs-comment">#  .. deprecated: 0.9</span>
+<span class="hljs-comment">#      Use DassHub.bind_url</span>
+c.Dass.ip = <span class="hljs-string">&apos;127.0.0.1&apos;</span>
+
+<span class="hljs-comment">## The public facing port of the proxy.</span>
+<span class="hljs-comment">#  </span>
+<span class="hljs-comment">#  This is the port on which the proxy will listen. This is the only port through</span>
+<span class="hljs-comment">#  which DassHub should be accessed by users.</span>
+<span class="hljs-comment">#  </span>
+<span class="hljs-comment">#  .. deprecated: 0.9</span>
+<span class="hljs-comment">#      Use DassHub.bind_url</span>
+c.Dass.port = <span class="hljs-number">8000</span>
+
+<span class="hljs-comment">#  This is the address on which the proxy will bind. Sets protocol, ip, base_url</span>
+<span class="hljs-comment">#c.DassHub.bind_url = &apos;http://127.0.0.1:8000&apos;</span>
+
+<span class="hljs-comment">## The ip address for the Hub process to *bind* to.</span>
+<span class="hljs-comment">#  </span>
+<span class="hljs-comment">#  By default, the hub listens on localhost only. This address must be accessible</span>
+<span class="hljs-comment">#  from the proxy and user servers. You may need to set this to a public ip or &apos;&apos;</span>
+<span class="hljs-comment">#  for all interfaces if the proxy or user servers are in containers or on a</span>
+<span class="hljs-comment">#  different host.</span>
+<span class="hljs-comment">#  </span>
+<span class="hljs-comment">#  See `hub_connect_ip` for cases where the bind and connect address should</span>
+<span class="hljs-comment">#  differ, or `hub_bind_url` for setting the full bind URL.</span>
+c.Dass.hub_ip = <span class="hljs-string">&apos;172.17.0.1&apos;</span> <span class="hljs-comment"># &#x6B64;&#x4E3A;docker&#x5730;&#x5740;&#xFF0C; &#x9ED8;&#x8BA4;&#x4E3A;&#x6B64;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;ifconfig&#x67E5;&#x770B;</span>
+
+<span class="hljs-comment">## The internal port for the Hub process.</span>
+<span class="hljs-comment">#  </span>
+<span class="hljs-comment">#  This is the internal port of the hub itself. It should never be accessed</span>
+<span class="hljs-comment">#  directly. See DassHub.port for the public port to use when accessing</span>
+<span class="hljs-comment">#  Dasshub. It is rare that this port should be set except in cases of port</span>
+<span class="hljs-comment">#  conflict.</span>
+<span class="hljs-comment">#  </span>
+<span class="hljs-comment">#  See also `hub_ip` for the ip and `hub_bind_url` for setting the full bind URL.</span>
+c.Dass.hub_port = <span class="hljs-number">8081</span>
+
+
+<span class="hljs-comment">## DEPRECATED since version 0.7.2, use Authenticator.admin_users instead.</span>
+c.Authenticator.admin_users = set([<span class="hljs-string">&apos;username&apos;</span>]) <span class="hljs-comment"># &#x589E;&#x52A0;&#x9ED8;&#x8BA4;&#x7BA1;&#x7406;&#x5458;&#x3002;</span>
+
+<span class="hljs-comment">## Whitelist of usernames that are allowed to log in.</span>
+<span class="hljs-comment">#  </span>
+<span class="hljs-comment">#  Use this with supported authenticators to restrict which users can log in.</span>
+<span class="hljs-comment">#  This is an additional whitelist that further restricts users, beyond whatever</span>
+<span class="hljs-comment">#  restrictions the authenticator has in place.</span>
+<span class="hljs-comment">#  </span>
+<span class="hljs-comment">#  If empty, does not perform any additional restriction.</span>
+c.Authenticator.whitelist = set([<span class="hljs-string">&apos;username&apos;</span>]) <span class="hljs-comment"># &#x9ED8;&#x8BA4;&#x4F7F;&#x7528;&#x7528;&#x6237;&#xFF0C;&#x7BA1;&#x7406;&#x5458;&#x9ED8;&#x8BA4;&#x5728;&#x5185;&#x3002;</span>
+
+<span class="hljs-comment">## The class to use for spawning single-user servers.</span>
+<span class="hljs-comment">#  </span>
+<span class="hljs-comment">#  Should be a subclass of Spawner.</span>
+c.DassHub.spawner_class = <span class="hljs-string">&apos;dockerspawner.DockerSpawner&apos;</span> <span class="hljs-comment"># dockerspanwer&#x7C7B;</span>
+<span class="hljs-comment"># Define user workspace</span>
+notebook_dir = <span class="hljs-string">&apos;/home/jovyan/work&apos;</span> <span class="hljs-comment"># notebook&#x5728;&#x5BB9;&#x5668;&#x4E2D;&#x7684;&#x5DE5;&#x4F5C;&#x7A7A;&#x95F4;</span>
+
+<span class="hljs-comment"># Set up the user&apos;s workspace</span>
+c.DockerSpawner.notebook_dir = notebook_dir     <span class="hljs-comment">#&#x7528;&#x6237;&#x5DE5;&#x4F5C;&#x76EE;&#x5F55;</span>
+
+<span class="hljs-comment"># Set the docker data volume to the host binding path</span>
+c.DockerSpawner.volumes = {<span class="hljs-string">&apos;Dasshub-user-{username}&apos;</span>: notebook_dir} <span class="hljs-comment">#&#x6570;&#x636E;&#x5377;&#x8BBE;&#x7F6E;</span>
+
+<span class="hljs-comment"># Set the base container for spawning and support multi-mirror switching</span>
+c.DockerSapwner.image = <span class="hljs-string">&apos;Dasshub/Dasshub:latest&apos;</span> <span class="hljs-comment"># &#x4F7F;&#x7528;&#x955C;&#x50CF;&#x540D;&#x3002;</span>
+
+<span class="hljs-comment">## Whether to open a new PAM session when spawners are started.</span>
+<span class="hljs-comment">#  </span>
+<span class="hljs-comment">#  This may trigger things like mounting shared filsystems, loading credentials,</span>
+<span class="hljs-comment">#  etc. depending on system configuration, but it does not always work.</span>
+<span class="hljs-comment">#  </span>
+<span class="hljs-comment">#  If any errors are encountered when opening/closing PAM sessions, this is</span>
+<span class="hljs-comment">#  automatically set to False.</span>
+c.PAMAuthenticator.open_sessions = <span class="hljs-keyword">True</span>
+</code></pre>
+<ul>
+<li>Gitlab&#x8BA4;&#x8BC1;&#x914D;&#x7F6E;</li>
+</ul>
+<pre><code># &#x5B89;&#x88C5;oauthenticator&#x8BA4;&#x8BC1;&#x5305;
+pip install oauthenticator
+</code></pre><pre><code># &#x5728;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4E2D;&#x589E;&#x52A0;&#x5BB6;&#x4EE5;&#x4E0B;&#x5185;&#x5BB9;&#xFF1A;
+from oauthenticator.gitlab import GitLabOAuthenticator
+c.Dass.authenticator_class = GitLabOAuthenticator # &#x8BBE;&#x7F6E;&#x9A8C;&#x8BC1;&#x7C7B;
+c.GitLabOAuthenticator.oauth_callback_url = &apos;http://hub ip:port/hub/oauth_callback&apos; # &#xFF08;&#x5907;&#x6CE8;&#xFF1A;&#x8BA4;&#x8BC1;&#x56DE;&#x8C03;&#x8DEF;&#x7531;&#x3002;&#x8BE5;&#x884C;&#x5185;&#x7528;&#x4E0D;&#x80FD;&#x5168;&#x6743;&#x590D;&#x5236;&#xFF0C;&#x9700;&#x8981;&#x6539;&#x5199;IP&#x548C;&#x7AEF;&#x53E3;&#xFF09;
+c.GitLabOAuthenticator.client_id = &apos;......&apos; # &#x6B64;&#x4E3A;gitlab &#x751F;&#x6210;&#x7684;app&#x5E94;&#x7528;&#x7684;&#x8FDE;&#x63A5;ID&#xFF0C;
+# &#x5728;&#x4E2A;&#x4EBA;&#x8BBE;&#x7F6E;&#x4E2D;&#x7684; application&#x4E2D;&#x751F;&#x6210;&#xFF0C;&#x4E3B;&#x4F53;&#x4E3A;&#x56DE;&#x8C03;URL&#xFF0C;&#x8BA4;&#x8BC1;api&#x6743;&#x9650;&#x8BBE;&#x7F6E;&#x3002;
+c.GitLabOAuthenticator.client_secret = &apos;....&apos; # &#x6B64;&#x4E3A;gitlab &#x8BA4;&#x8BC1;&#x5BC6;&#x7801;&#xFF0C; &#x540C;&#x4E3A;gitlab&#x751F;&#x6210;&#x3002;
+
+# &#x5907;&#x6CE8;&#xFF1A;client_id &#x548C; client_secret &#x9700;&#x8981;&#x751F;&#x6210;
+</code></pre><h3 id="nginx-&#x914D;&#x7F6E;">Nginx &#x914D;&#x7F6E;</h3>
+<p>&#x4FEE;&#x6539;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF1A;</p>
+<pre><code>vim nginx.conf
+&#x6839;&#x636E;&#x641C;&#x7D22;&#x5173;&#x952E;&#x8BCD;&#x627E;&#x5230;&#x4EE5;&#x4E0B;&#x5185;&#x5BB9;
+# &#x589E;&#x52A0;&#x4EE5;&#x4E0B;&#x5185;&#x5BB9;&#xFF1A;
+       server {
+                   # Set the listen port and IP address
+                listen  80;
+                server_name     45.77.19.14;
+
+        location / {
+                # Set the proxy settings
+                proxy_pass http://127.0.0.1:8000/;
+
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header Host $host;
+                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+
+                proxy_set_header X-NginX-Proxy true;
+
+                #WebSocket support
+
+                proxy_http_version 1.1;
+                proxy_set_header Upgrade $http_upgrade;
+                proxy_set_header Connection &quot;upgrade&quot;;
+                proxy_read_timeout 86400;
+            }
+        }
+</code></pre><p>&#x914D;&#x7F6E;&#x5B8C;&#x6210;&#x540E;&#x91CD;&#x65B0;&#x52A0;&#x8F7D;nginx &#xFF1A;</p>
+<pre><code>sudo service nginx reload
+</code></pre><p>&#x4E00;&#x5207;&#x51C6;&#x5907;&#x5B8C;&#x6210;&#xFF0C; &#x6700;&#x540E;&#x542F;&#x52A8;DassHub:</p>
+<ul>
+<li>&#x542F;&#x52A8;DassHub</li>
+</ul>
+<pre><code>#&#x4F7F;&#x7528;nohup &#x8FD0;&#x884C;Dasshub:
+nohup Dass -f /path/to/Dass_config.py  &amp;
+# example&#xFF1A;nohup Dass -f /etc/Dass/Dass_config.py  &amp;
+# &#x542F;&#x52A8;nginx&#xFF1A;
+sudo service nginx start
+
+# &#x5728;&#x670D;&#x52A1;&#x5668;&#x7684;&#x8F93;&#x5165;IP&#x5730;&#x5740;  &#x4F1A;&#x51FA;&#x73B0;Sign In with Gitlab&#x6807;&#x8BC6;
+
+# &#x5907;&#x6CE8; &#xFF1A;/path/to/&#x6307;&#x7684;&#x662F;Dass&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x7684;&#x8DEF;&#x5F84;
+</code></pre><h2 id="docker&#x955C;&#x50CF;&#x7248;">docker&#x955C;&#x50CF;&#x7248;</h2>
+<p>&#x6B64;&#x955C;&#x50CF;&#x96C6;&#x6210;Anaconda&#xFF0C;Dass notebook&#xFF0C; Dasslab&#xFF0C; Dasshub&#xFF0C; GitLab&#x8BA4;&#x8BC1;&#x3002;&#x643A;&#x5E26;&#x9ED8;&#x8BA4;&#x914D;&#x7F6E;&#xFF0C; &#x53EA;&#x9700;&#x8981;&#x8FD0;&#x884C;&#xFF0C;&#x5E76;&#x5236;&#x5B9A;docker&#x5BB9;&#x5668;&#x7684;&#x7AEF;&#x53E3;&#x6620;&#x5C04;&#x3002;&#x4EE5;&#x4E0B;&#x662F;&#x547D;&#x4EE4;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code>docker run -p 9000:8000 sunxr/hub:V2.2
+</code></pre><h2 id="&#x8FD0;&#x884C;&#x793A;&#x4F8B;">&#x8FD0;&#x884C;&#x793A;&#x4F8B;</h2>
+<p>ubuntu 18.04 , docker&#xFF0C;&#x6B64;&#x5BB9;&#x5668;&#x955C;&#x50CF;&#x4E3A;&#x6574;&#x5408;nginx&#xFF0C; &#x9700;&#x8981;&#x5355;&#x72EC;&#x914D;&#x7F6E;nginx&#xFF0C;&#x9ED8;&#x8BA4;&#x4F7F;&#x7528;&#x7AEF;&#x53E3;&#x540C;&#x6837;&#x53EF;&#x4EE5;&#x8BBF;&#x95EE;&#xFF0C; &#x6D4B;&#x8BD5;&#x53EA;&#x9700;&#x8981;&#x901A;&#x8FC7;&#x7AEF;&#x53E3;&#x8BBF;&#x95EE;&#x5373;&#x53EF;&#x3002;&#x5982;&#x4F55;&#x914D;&#x7F6E;&#x4EE3;&#x7406;&#xFF0C;&#x53EF;&#x5411;&#x4E0A;&#x53C2;&#x8003;&#x914D;&#x7F6E;nginx&#x3002;</p>
+<p>Dasshub&#x914D;&#x7F6E;&#x540C;&#x6837;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x547D;&#x4EE4;&#x5728;&#x5BBF;&#x4E3B;&#x673A;&#x914D;&#x7F6E;&#xFF0C;&#x5E76;&#x5728;&#x542F;&#x52A8;&#x65F6;&#x8FDB;&#x884C;&#x6620;&#x5C04;&#x4E4B;&#x8FD0;&#x884C;&#x5BB9;&#x5668;&#x5185;&#x90E8;&#xFF1A;`/etc/Dasshub/Dasshub_config.py `&#x4E2D;&#xFF0C;&#x4EE5;&#x4FBF;&#x8FDB;&#x884C;&#x81EA;&#x5B9A;&#x4E49;&#x914D;&#x7F6E;&#xFF0C;&#x4EE5;&#x4E0B;&#x662F;&#x542F;&#x52A8;&#x547D;&#x4EE4;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code>docker run -p 9000:8000 -v /etc/Dass/Dass_config.py:/etc/Dass/Dass_config.py sunxr/hub:V2.2 Dass -f /etc/Dass/Dass_config.py
+</code></pre><h2 id="&#x5BB9;&#x5668;docker-&#x5BFC;&#x51FA;&#x548C;&#x5BFC;&#x5165;">&#x5BB9;&#x5668;docker &#x5BFC;&#x51FA;&#x548C;&#x5BFC;&#x5165;</h2>
+<p>Docker&#x4E3A;&#x65B9;&#x4FBF;&#x5FEB;&#x901F;&#x90E8;&#x7F72;&#x3001;&#x8F6C;&#x79FB;&#xFF0C;&#x4E4B;&#x6301;&#x5BB9;&#x5668;&#x7684;&#x5BFC;&#x51FA;&#x548C;&#x5BFC;&#x5165;&#x3002;&#x53EA;&#x9700;&#x8981;&#x5C06;docker&#x7684;&#x8FD0;&#x884C;&#x5BB9;&#x5668;&#x8FDB;&#x884C;&#x5230;&#x5165;&#xFF0C;&#x5373;&#x53EF;&#x5373;&#x65F6;&#x4F7F;&#x7528;&#x3002;</p>
+<p>&#x5BFC;&#x51FA;&#xFF1A;docker&#x4EE5;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x5C06;&#x5BB9;&#x5668;&#x8F93;&#x51FA;&#x6587;&#x4E00;&#x4E2A;&#x9759;&#x6001;&#x6587;&#x4EF6;&#xFF0C; &#x5E76;&#x76F4;&#x63A5;&#x8FDB;&#x884C;&#x6253;&#x5305;&#xFF1A;docker export [container ID] &gt; update.tar&#x3002;</p>
+<p>&#x5BFC;&#x5165;&#xFF1A;docker&#x4F7F;&#x7528;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E;&#x9759;&#x6001;&#x6587;&#x4EF6;&#x7684;&#x5BB9;&#x5668;&#x955C;&#x50CF;&#xFF1A;docker import - [container name] &lt; update.tar.</p>
+<h2 id="&#x7CFB;&#x7EDF;&#x7EBF;&#x4E0A;&#x6D4B;&#x8BD5;">&#x7CFB;&#x7EDF;&#x7EBF;&#x4E0A;&#x6D4B;&#x8BD5;</h2>
+<p>&#x4EE5;&#x4E0A;&#x529F;&#x80FD;&#x5747;&#x5DF2;&#x5728;[&#x7EBF;&#x4E0A;&#x90E8;&#x7F72;](<a href="http://139.196.76.242%29&#xFF0C;" target="_blank">http://139.196.76.242)&#xFF0C;</a> &#x53EF;&#x8FDB;&#x884C;&#x76F4;&#x63A5;&#x8BBF;&#x95EE;&#x3002;&#x5E76;&#x4EE5;&#x4EE5;&#x4E0B;&#x7528;&#x6237;&#x548C;&#x5BC6;&#x7801;&#x8FDB;&#x884C;&#x8BA4;&#x8BC1;&#x767B;&#x9646;&#xFF1A;</p>
+<p>&#x8BA4;&#x8BC1;&#x7528;&#x6237;&#xFF1A;guest</p>
+<p>&#x7528;&#x6237;&#x5BC6;&#x7801;&#xFF1A;guest123</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../jupyterhub.html" class="navigation navigation-prev " aria-label="Previous page: JupyterHub">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../gitbook.html" class="navigation navigation-next " aria-label="Next page: gitbook">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Ubuntu部署dass","level":"1.4.1","depth":2,"next":{"title":"gitbook","level":"1.5","depth":1,"path":"gitbook.md","ref":"gitbook.md","articles":[]},"previous":{"title":"JupyterHub","level":"1.4","depth":1,"path":"jupyterhub.md","ref":"jupyterhub.md","articles":[{"title":"Ubuntu部署dass","level":"1.4.1","depth":2,"path":"jupyterhub/ubuntubu-shu-dass.md","ref":"jupyterhub/ubuntubu-shu-dass.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"jupyterhub/ubuntubu-shu-dass.md","mtime":"2018-11-01T06:26:50.977Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-11-09T07:49:28.337Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

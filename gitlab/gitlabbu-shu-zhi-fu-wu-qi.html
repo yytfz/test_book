@@ -1,0 +1,599 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>gitlab部署至服务器 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../influxdbshi-xu-shu-ju-ku.html" />
+    
+    
+    <link rel="prev" href="gitchang-yong-ming-ling.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../jupyter-notebook.html">
+            
+                <a href="../jupyter-notebook.html">
+            
+                    
+                    Jupyter Notebook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../chapter1.html">
+            
+                <a href="../chapter1.html">
+            
+                    
+                    JupyterLab
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../chapter1/jupyterlabjie-kou.html">
+            
+                <a href="../chapter1/jupyterlabjie-kou.html">
+            
+                    
+                    Jupyterlab接口文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../chapter1/mo-xing-shu-ju-jie-gou-she-ji-xiang-qing.html">
+            
+                <a href="../chapter1/mo-xing-shu-ju-jie-gou-she-ji-xiang-qing.html">
+            
+                    
+                    模型数据结构设计详情
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../chapter1/mo-xing-gong-neng-ying-yong-ji-zhu.html">
+            
+                <a href="../chapter1/mo-xing-gong-neng-ying-yong-ji-zhu.html">
+            
+                    
+                    模型功能应用技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../chapter1/dass.html">
+            
+                <a href="../chapter1/dass.html">
+            
+                    
+                    dass
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.4.1" data-path="../chapter1/dass/dassgong-neng-gai-yao-tu-jie.html">
+            
+                <a href="../chapter1/dass/dassgong-neng-gai-yao-tu-jie.html">
+            
+                    
+                    dass功能概要图解
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../jupyterhub.html">
+            
+                <a href="../jupyterhub.html">
+            
+                    
+                    JupyterHub
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../jupyterhub/ubuntubu-shu-dass.html">
+            
+                <a href="../jupyterhub/ubuntubu-shu-dass.html">
+            
+                    
+                    Ubuntu部署dass
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../gitbook.html">
+            
+                <a href="../gitbook.html">
+            
+                    
+                    gitbook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../gitlab.html">
+            
+                <a href="../gitlab.html">
+            
+                    
+                    gitlab
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="gitchang-yong-ming-ling.html">
+            
+                <a href="gitchang-yong-ming-ling.html">
+            
+                    
+                    git常用命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6.2" data-path="gitlabbu-shu-zhi-fu-wu-qi.html">
+            
+                <a href="gitlabbu-shu-zhi-fu-wu-qi.html">
+            
+                    
+                    gitlab部署至服务器
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../influxdbshi-xu-shu-ju-ku.html">
+            
+                <a href="../influxdbshi-xu-shu-ju-ku.html">
+            
+                    
+                    Influxdb时序数据库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../influxdbshi-xu-shu-ju-ku/influxdbde-shi-yong.html">
+            
+                <a href="../influxdbshi-xu-shu-ju-ku/influxdbde-shi-yong.html">
+            
+                    
+                    Influxdb的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../redminebu-shu.html">
+            
+                <a href="../redminebu-shu.html">
+            
+                    
+                    redmine部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../docker.html">
+            
+                <a href="../docker.html">
+            
+                    
+                    Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../nbviewerbu-shu.html">
+            
+                <a href="../nbviewerbu-shu.html">
+            
+                    
+                    NBViewer部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >gitlab部署至服务器</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="gitlab&#x90E8;&#x7F72;&#x81F3;&#x670D;&#x52A1;&#x5668;">GitLab&#x90E8;&#x7F72;&#x81F3;&#x670D;&#x52A1;&#x5668;</h2>
+<p>Gitlab&#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x4ED3;&#x5E93;&#x7BA1;&#x7406;&#x9879;&#x76EE;&#xFF0C;&#x4F7F;&#x7528;git&#x5DE5;&#x5177;&#x8FDB;&#x884C;&#x4EE3;&#x7801;&#x7BA1;&#x7406;&#x3002;&#x5728;&#x670D;&#x52A1;&#x5668;&#x642D;&#x5EFA;&#x79C1;&#x670D;Gitlab&#xFF0C;&#x4F5C;&#x4E3A;&#x672C;&#x5730;&#x4ED3;&#x5E93;&#x8FDB;&#x884C;&#x9879;&#x76EE;&#x4EE3;&#x7801;&#x7BA1;&#x7406;&#xFF0C;&#x5B9E;&#x73B0;&#x591A;&#x7528;&#x6237;&#x8BA4;&#x8BC1;&#x673A;&#x5236;&#x548C;issue&#x8DDF;&#x8E2A;&#x7B49;&#x529F;&#x80FD;&#xFF0C;&#x65B9;&#x4FBF;&#x5B9E;&#x9645;&#x9879;&#x76EE;&#x5728;&#x5F00;&#x53D1;&#x8FC7;&#x7A0B;&#x4E2D;&#x9AD8;&#x6548;&#x5FEB;&#x6377;&#x7684;&#x8FDB;&#x884C;&#x9879;&#x76EE;&#x7BA1;&#x7406;&#x3002;</p>
+<p>Gitlab&#x90E8;&#x7F72;&#x9996;&#x5148;&#x9700;&#x8981;&#x5728;&#x8981;&#x90E8;&#x7F72;&#x7684;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x5B89;&#x88C5;Gitlab&#xFF0C;&#x539F;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x5907;&#x4EFD;&#x7684;&#x6570;&#x636E;&#x9700;&#x8981;&#x8FC1;&#x79FB;&#x81F3;&#x65B0;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#xFF08;&#x9700;&#x8981;&#x5173;&#x6CE8;&#x7248;&#x672C;&#x95EE;&#x9898;&#xFF09;&#xFF0C;&#x7136;&#x540E;&#x5728;&#x65B0;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x6839;&#x636E;&#x547D;&#x4EE4;&#x6062;&#x590D;&#x5907;&#x4EFD;&#x6587;&#x4EF6;&#x91CC;&#x9762;&#x7684;&#x6570;&#x636E;&#x3002;&#x5728;&#x65B0;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x4E5F;&#x8981;&#x521B;&#x5EFA;&#x5907;&#x4EFD;&#xFF0C;&#x4E3A;&#x4E86;&#x540E;&#x671F;&#x7684;&#x6570;&#x636E;&#x6062;&#x590D;&#x3002;</p>
+<h3 id="gitlab&#x5B89;&#x88C5;">Gitlab&#x5B89;&#x88C5;</h3>
+<p>&#x5B89;&#x88C5;&#x53C2;&#x8003;&#x6587;&#x6863;&#xFF1A;<a href="https://about.gitlab.com/installation/#ubuntu" target="_blank">https://about.gitlab.com/installation/#ubuntu</a></p>
+<p>&#x5728;&#x5B89;&#x88C5;&#x4E4B;&#x524D;&#x786E;&#x4FDD;&#x670D;&#x52A1;&#x5668;&#x7684;&#x6B63;&#x5E38;&#x8FDE;&#x63A5;&#x3002;</p>
+<p>&#x6D4B;&#x8BD5;&#x90E8;&#x7F72;gitlab&#xFF1A;</p>
+<p>1, &#x5B89;&#x88C5;&#x5E76;&#x914D;&#x7F6E;&#x5FC5;&#x8981;&#x7684;&#x4F9D;&#x8D56;&#x9879;&#xFF1A;</p>
+<pre><code>sudo apt-get update &amp;&amp; sudo apt-get install -y curl openssh-server ca-certificates
+</code></pre><p>2, &#x5B89;&#x88C5;postfix&#x53D1;&#x9001;&#x90AE;&#x4EF6;&#xFF1A;</p>
+<pre><code>sudo apt-get install -y postfix
+</code></pre><p>&#x5728;postfix&#x5B89;&#x88C5;&#x671F;&#x95F4;&#x4F1A;&#x51FA;&#x73B0;&#x914D;&#x7F6E;&#x9009;&#x9879;&#xFF0C; &#x9009;&#x62E9;`Internet Site` &#x5E76;&#x6309;`Enter`&#x786E;&#x8BA4;&#xFF0C;&#x4F7F;&#x7528;&#x670D;&#x52A1;&#x5668;&#x7684;&#x5916;&#x90E8;DNS&#x4F5C;&#x4E3A;&#x2018;&#x2019;&#x90AE;&#x4EF6;&#x540D;&#x79F0;&#x201C;&#xFF0C; &#x5E76;&#x6309;Enter&#x952E;&#xFF0C;&#x5982;&#x679C;&#x51FA;&#x73B0;&#x5176;&#x4ED6;&#x5BF9;&#x8BDD;&#x6846;&#xFF0C;&#x7EE7;&#x7EED;&#x6309;Enter&#x952E;&#x63A5;&#x53D7;&#x9ED8;&#x8BA4;&#x503C;&#x3002;</p>
+<p>3&#xFF0C; &#x6DFB;&#x52A0;Gitlab&#x8F6F;&#x4EF6;&#x5305;&#x5B58;&#x50A8;&#x5E93;&#x5E76;&#x5B89;&#x88C5;&#x8F6F;&#x4EF6;&#x5305;&#xFF1A;</p>
+<pre><code># &#x6DFB;&#x52A0;gitlab&#x5305;&#x5B58;&#x50A8;&#x5E93;
+curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+</code></pre><p>4, &#x5B89;&#x88C5;gitlab &#x5305;&#xFF0C;&#x914D;&#x7F6E;&#x9700;&#x8981;&#x8BBF;&#x95EE;&#x7684;gitlab&#x5B9E;&#x4F8B;&#x8DEF;&#x5F84;&#xFF1A;</p>
+<pre><code>sudo EXTERNAL_URL=&apos;http://ip&apos; apt-get install gitlab-ce
+
+#ip&#xFF1A;&#x670D;&#x52A1;&#x5668;IP&#x5730;&#x5740;
+</code></pre><p>&#x5B89;&#x88C5;&#x6210;&#x529F;&#x4F1A;&#x51FA;&#x73B0;&#x4E00;&#x4E2A;GitLab&#x56FE;&#x6807;&#xFF0C;&#x5E76;&#x63D0;&#x793A;&#x914D;&#x7F6E;&#x7684;&#x53EF;&#x8BBF;&#x95EE;&#x5730;&#x5740;&#xFF0C;&#x4EE5;&#x53CA;gitlab&#x7684;&#x5B98;&#x65B9;README&#x6587;&#x4EF6;&#x94FE;&#x63A5;&#x3002;</p>
+<h2 id="&#x4EE5;&#x4E0B;&#x662F;&#x5B89;&#x88C5;&#x8FC7;&#x7A0B;&#x4E2D;&#x6240;&#x5E38;&#x89C1;&#x95EE;&#x9898;">&#x4EE5;&#x4E0B;&#x662F;&#x5B89;&#x88C5;&#x8FC7;&#x7A0B;&#x4E2D;&#x6240;&#x5E38;&#x89C1;&#x95EE;&#x9898;</h2>
+<p>Question&#xFF1A;&#x6B64;&#x5904;&#x6587;&#x6863;&#x4E2D;&#x6CA1;&#x6709; (&#x5728;&#x6DFB;&#x52A0;Gitlab&#x8F6F;&#x4EF6;&#x5305;&#x5B58;&#x50A8;&#x5E93;&#x5E76;&#x5B89;&#x88C5;&#x8F6F;&#x4EF6;&#x5305;&#x65F6;&#x51FA;&#x73B0;&#x8BE5;&#x95EE;&#x9898;)</p>
+<p>Answer &#xFF1A;[sudo] apt-get update    [sudo] apt-get upgrade</p>
+<p>Question</p>
+<p>gitlab &#x5B89;&#x88C5;&#x51FA;&#x73B0;&#x4EE5;&#x4E0B;&#x9519;&#x8BEF;&#xFF0C;&#x9700;&#x8981;&#x8BBE;&#x7F6E;ubuntu&#x7CFB;&#x7EDF;&#x8BED;&#x8A00;</p>
+<pre><code>Running handlers:
+There was an error running gitlab-ctl reconfigure:
+
+execute[/opt/gitlab/embedded/bin/initdb -D /var/opt/gitlab/postgresql/data -E UTF8] (postgresql::enable line 80) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received &apos;1&apos;
+ ---- Begin output of /opt/gitlab/embedded/bin/initdb -D /var/opt/gitlab/postgresql/data -E UTF8 ----
+STDOUT: The files belonging to this database system will be owned by user &quot;gitlab-psql&quot;.
+This user must also own the server process.
+</code></pre><h5 id="answer">Answer</h5>
+<p>export LC_CTYPE=en_US.UTF-8</p>
+<p>export LC_ALL=en_US.UTF-8</p>
+<p>sudo dpkg-reconfigure locales</p>
+<h5 id="error">Error</h5>
+<p>vim /etc/gitlab/gitlab.rb</p>
+<p>&#x627E;&#x5230; unicorn[&apos;port&apos;] = 8080&#xFF0C;&#x5C06;8080&#x4FEE;&#x6539;&#x4E3A;9090&#xFF0C;&#x4E4B;&#x540E;&#x91CD;&#x65B0;&#x52A0;&#x8F7D;&#x914D;&#x7F6E;&#x6587;&#x4EF6;and&#x91CD;&#x542F;</p>
+<p>gitlab-ctl reconfigure</p>
+<p>sudo gitlab-ctl restart</p>
+<p>&#x89E3;&#x51B3;&#x5B8C;&#x4E4B;&#x540E;&#x518D;&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x8F93;&#x5165;IP&#x5730;&#x5740;&#x5C31;&#x53EF;&#x4EE5;&#x51FA;&#x73B0;&#x671F;&#x5F85;&#x5DF2;&#x4E45;&#x7684;&#x767B;&#x5F55;&#x9875;&#x9762;&#xFF01;</p>
+<h2 id="gitlab&#x6570;&#x636E;&#x8FC1;&#x79FB;">Gitlab&#x6570;&#x636E;&#x8FC1;&#x79FB;</h2>
+<p>&#x6570;&#x636E;&#x8FC1;&#x79FB;&#x5C31;&#x662F;&#x5C06;&#x8001;&#x670D;&#x52A1;&#x5668;&#x7684;&#x6587;&#x4EF6;&#x5907;&#x4EFD;&#x5230;&#x65B0;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#xFF0C;&#x4F46;&#x662F;&#x5728;&#x8FDB;&#x884C;&#x8FC1;&#x79FB;&#x7684;&#x540C;&#x65F6;&#xFF0C;&#x786E;&#x4FDD;&#x65B0;&#x7684;Gitlab&#x670D;&#x52A1;&#x5668;&#x548C;&#x8001;Gitlab&#x670D;&#x52A1;&#x5668;&#x7684;&#x7248;&#x672C;&#x76F8;&#x540C;&#x3002;</p>
+<p>&#x82E5;&#x51FA;&#x73B0;&#x7248;&#x672C;&#x4E0D;&#x540C;&#x53EF;&#x4EE5;&#x5C06;&#x8001;&#x670D;&#x52A1;&#x5668;&#x7684;Gitlab&#x5347;&#x7EA7;&#x4E3A;&#x6700;&#x65B0;&#x7248;&#x672C;&#x4E4B;&#x540E;&#x518D;&#x8FDB;&#x884C;&#x5907;&#x4EFD;&#x3002;</p>
+<pre><code>[sudo] apt update
+[sudo] install gitlab-ce
+</code></pre><p>&#xFF08;&#x6216;&#x81EA;&#x884C;&#x67E5;&#x9605;&#x5347;&#x7EA7;Gitlab&#x7248;&#x672C;&#x8D44;&#x6599;&#xFF09;</p>
+<h3 id="gitlab-&#x521B;&#x5EFA;&#x5907;&#x4EFD;">Gitlab &#x521B;&#x5EFA;&#x5907;&#x4EFD;</h3>
+<p>&#x521B;&#x5EFA;&#x5907;&#x4EFD;&#x662F;&#x5C06;gitlab&#x4E2D;&#x7684;&#x6570;&#x636E;&#x5B9A;&#x671F;&#x4FDD;&#x5B58;&#x4E0B;&#x6765;&#xFF0C;&#x5B9A;&#x65F6;&#x66F4;&#x65B0;&#xFF0C;&#x6BCF;&#x521B;&#x5EFA;&#x4E00;&#x6B21;&#x5907;&#x4EFD;&#xFF0C;&#x5C31;&#x4F1A;&#x751F;&#x6210;&#x4E00;&#x4E2A;&#x5907;&#x4EFD;&#x6587;&#x4EF6;&#xFF0C;&#x4EE5;&#x4FBF;&#x5728;&#x65E5;&#x5E38;&#x5DE5;&#x4F5C;&#x4E2D;&#x6062;&#x590D;&#x6570;&#x636E;&#x3002;</p>
+<pre><code>&#x5728;&#x521B;&#x5EFA;&#x5907;&#x4EFD;&#x7684;&#x4E4B;&#x524D;&#xFF0C;&#x9700;&#x6253;&#x5F00;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x627E;&#x5230;&#x4E24;&#x884C;&#x5173;&#x952E;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x5C06;&#x8FD9;&#x4E24;&#x884C;&#x4EE3;&#x7801;&#x653E;&#x5F00;&#xFF0C;&#x4E4B;&#x540E;&#x91CD;&#x65B0;&#x52A0;&#x8F7D;&#x914D;&#x7F6E;&#x6587;&#x4EF6;
+# gitlab_rails[&apos;manage_backup_path&apos;] = ture
+# gitlab_rails[&apos;backup_path&apos;] = &apos;var/opt/gitlab/backup&apos;(&#x8DEF;&#x5F84;&#x53EF;&#x4EE5;&#x81EA;&#x5DF1;&#x6539;&#x53D8;)
+
+#&#x52A0;&#x8F7D;&#x914D;&#x7F6E;&#x6587;&#x4EF6;
+gitlab_ctl reconfigure
+</code></pre><ul>
+<li>&#x521B;&#x5EFA;&#x5907;&#x4EFD;&#x547D;&#x4EE4;</li>
+</ul>
+<pre><code>gitlab-rake gitlab:backup:create
+&#x4F7F;&#x7528;&#x53D1;&#x547D;&#x4EE4;&#x4F1A;&#x5728;&#x5907;&#x4EFD;&#x76EE;&#x5F55;&#x4E0B;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x7C7B;&#x4F3C;&#x4E8E;1535543124_2017_08_29_11.2.3_gitlab_backup.tar&#x7684;&#x538B;&#x7F29;&#x6587;&#x4EF6;&#xFF0C;&#x8BE5;&#x538B;&#x7F29;&#x6587;&#x4EF6;&#x5305;&#x542B;&#x6240;&#x6709;&#x4FE1;&#x606F;&#x3002;
+</code></pre><h6 id="&#x5907;&#x6CE8;&#xFF1A;&#x5982;&#x679C;&#x5907;&#x4EFD;&#x4FE1;&#x606F;&#x662F;&#x5DF2;&#x7ECF;&#x5B58;&#x5728;&#x7684;&#xFF0C;&#x4E00;&#x5B9A;&#x8981;&#x5C06;&#x8BE5;tar&#x6587;&#x4EF6;&#x79FB;&#x5230;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x6307;&#x5B9A;&#x7684;&#x5907;&#x4EFD;&#x8DEF;&#x5F84;&#x4E0B;&#xFF0C;&#x5426;&#x5219;&#x65E0;&#x6CD5;&#x627E;&#x5230;&#x3002;">&#x5907;&#x6CE8;&#xFF1A;&#x5982;&#x679C;&#x5907;&#x4EFD;&#x4FE1;&#x606F;&#x662F;&#x5DF2;&#x7ECF;&#x5B58;&#x5728;&#x7684;&#xFF0C;&#x4E00;&#x5B9A;&#x8981;&#x5C06;&#x8BE5;tar&#x6587;&#x4EF6;&#x79FB;&#x5230;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x6307;&#x5B9A;&#x7684;&#x5907;&#x4EFD;&#x8DEF;&#x5F84;&#x4E0B;&#xFF0C;&#x5426;&#x5219;&#x65E0;&#x6CD5;&#x627E;&#x5230;&#x3002;</h6>
+<h2 id="gitlab-&#x6570;&#x636E;&#x6062;&#x590D;">Gitlab &#x6570;&#x636E;&#x6062;&#x590D;</h2>
+<p>Gitlab&#x6570;&#x636E;&#x6062;&#x590D;&#x662F;&#x5C06;&#x67D0;&#x4E00;&#x65F6;&#x95F4;&#x7684;&#x5907;&#x4EFD;&#x6570;&#x636E;&#x6062;&#x590D;&#x81F3;Gitlab&#x3002;</p>
+<ul>
+<li>&#x5728;&#x6570;&#x636E;&#x6062;&#x590D;&#x7684;&#x65F6;&#x5019;&#x5148;&#x505C;&#x6B62;&#x76F8;&#x5173;&#x6570;&#x636E;&#x8FDE;&#x63A5;&#x670D;&#x52A1;</li>
+</ul>
+<pre><code>#&#x505C;&#x6B62;&#x76F8;&#x5173;&#x6570;&#x636E;&#x8FDE;&#x63A5;&#x670D;&#x52A1;
+
+gitlab_ctl stop unicorn
+gitlab_ctl stop sidekip
+</code></pre><ul>
+<li>&#x6267;&#x884C;&#x547D;&#x4EE4;&#x6062;&#x590D;&#x6587;&#x4EF6;</li>
+</ul>
+<pre><code>gitlab-rake gitlab:backup:restore BACKUP=&#x5907;&#x4EFD;&#x6587;&#x4EF6;&#x7F16;&#x53F7; 
+for example&#xFF1A;gitlab-rake gitlab:backup:restore BACKUP=1535543124_2017_08_29_11.2.3
+
+&#x6267;&#x884C;&#x5B8C;&#x6BD5;&#x4EE5;&#x4E0A;&#x547D;&#x4EE4;&#xFF0C;&#x91CD;&#x65B0;&#x542F;&#x52A8;&#x767B;&#x5F55;&#xFF0C;&#x65B0;&#x670D;&#x52A1;&#x5668;&#x5C31;&#x4F1A;&#x6062;&#x590D;&#x81F3;&#x5907;&#x4EFD;&#x6587;&#x4EF6;&#x7684;&#x6570;&#x636E;&#x3002;
+</code></pre><h5 id="question&#xFF1A;&#x5982;&#x679C;&#x51FA;&#x73B0;&#x6743;&#x9650;&#x95EE;&#x9898;&#x9519;&#x8BEF;&#xFF0C;&#x5C06;&#x5907;&#x4EFD;&#x6587;&#x4EF6;&#x8FDB;&#x884C;777&#x6388;&#x4E88;&#x6743;&#x9650;-&#x4E4B;&#x540E;&#x518D;&#x6267;&#x884C;&#x6570;&#x636E;&#x6062;&#x590D;&#x547D;&#x4EE4;&#x5C31;ok&#x4E86;&#x3002;">Question&#xFF1A;&#x5982;&#x679C;&#x51FA;&#x73B0;&#x6743;&#x9650;&#x95EE;&#x9898;&#x9519;&#x8BEF;&#xFF0C;&#x5C06;&#x5907;&#x4EFD;&#x6587;&#x4EF6;&#x8FDB;&#x884C;777&#x6388;&#x4E88;&#x6743;&#x9650; ,&#x4E4B;&#x540E;&#x518D;&#x6267;&#x884C;&#x6570;&#x636E;&#x6062;&#x590D;&#x547D;&#x4EE4;&#x5C31;ok&#x4E86;&#x3002;</h5>
+<h5 id="answer&#xFF1A;chomd-777-155backuptar">Answer&#xFF1A;chomd 777 155.....backup.tar</h5>
+<h2 id="gitlab&#x5220;&#x9664;">Gitlab&#x5220;&#x9664;</h2>
+<pre><code>sudo gitlab-ctl uninstall # &#x5220;&#x9664;&#x670D;&#x52A1;
+
+sudo gitlab-ctl cleanse # &#x6E05;&#x9664;&#x751F;&#x6210;&#x6570;&#x636E;
+
+sudo gitlab-ctl remove-accounts # &#x5220;&#x9664;&#x914D;&#x7F6E;&#x8D26;&#x6237;
+
+sudo dpkg -P gitlab-ce # &#x5220;&#x9664;&#x8F6F;&#x4EF6;&#x5305;
+
+&#x6267;&#x884C;&#x4EE5;&#x4E0A;&#x547D;&#x540D;&#x624D;&#x4F1A;&#x628A;&#x4E4B;&#x524D;&#x6240;&#x5B89;&#x88C5;gitlab&#x7684;&#x6240;&#x6709;&#x6E05;&#x7406;&#x5E72;&#x51C0;&#x3002;
+</code></pre><h3 id="&#x5E38;&#x7528;&#x547D;&#x4EE4;">&#x5E38;&#x7528;&#x547D;&#x4EE4;</h3>
+<pre><code>&#x542F;&#x52A8;Gitlab&#xFF1A;gitlab-ctl start
+
+&#x91CD;&#x542F;Gitlab&#xFF1A;gitlab-ctl restart
+
+&#x7F16;&#x8F91;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF1A;vim /etc/gitlab/gitlab.rb
+
+&#x91CD;&#x65B0;&#x52A0;&#x8F7D;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF1A;gitlab-ctl reconfigure
+
+&#x6740;&#x6B7B;&#x8FDB;&#x7A0B;&#xFF1A;kill -9 &#x8FDB;&#x7A0B;&#x53F7;
+
+&#x67E5;&#x770B;&#x5173;&#x4E8E;about&#x7684;&#x8FDB;&#x7A0B;&#xFF1A;ps -ef | grep about
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="gitchang-yong-ming-ling.html" class="navigation navigation-prev " aria-label="Previous page: git常用命令">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../influxdbshi-xu-shu-ju-ku.html" class="navigation navigation-next " aria-label="Next page: Influxdb时序数据库">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"gitlab部署至服务器","level":"1.6.2","depth":2,"next":{"title":"Influxdb时序数据库","level":"1.7","depth":1,"path":"influxdbshi-xu-shu-ju-ku.md","ref":"influxdbshi-xu-shu-ju-ku.md","articles":[{"title":"Influxdb的使用","level":"1.7.1","depth":2,"path":"influxdbshi-xu-shu-ju-ku/influxdbde-shi-yong.md","ref":"influxdbshi-xu-shu-ju-ku/influxdbde-shi-yong.md","articles":[]}]},"previous":{"title":"git常用命令","level":"1.6.1","depth":2,"path":"gitlab/gitchang-yong-ming-ling.md","ref":"gitlab/gitchang-yong-ming-ling.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"gitlab/gitlabbu-shu-zhi-fu-wu-qi.md","mtime":"2018-11-01T08:38:58.636Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-11-09T07:49:28.337Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

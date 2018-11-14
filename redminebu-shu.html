@@ -1,0 +1,554 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>redmine部署 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="docker.html" />
+    
+    
+    <link rel="prev" href="influxdbshi-xu-shu-ju-ku/influxdbde-shi-yong.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="jupyter-notebook.html">
+            
+                <a href="jupyter-notebook.html">
+            
+                    
+                    Jupyter Notebook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="chapter1.html">
+            
+                <a href="chapter1.html">
+            
+                    
+                    JupyterLab
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="chapter1/jupyterlabjie-kou.html">
+            
+                <a href="chapter1/jupyterlabjie-kou.html">
+            
+                    
+                    Jupyterlab接口文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="chapter1/mo-xing-shu-ju-jie-gou-she-ji-xiang-qing.html">
+            
+                <a href="chapter1/mo-xing-shu-ju-jie-gou-she-ji-xiang-qing.html">
+            
+                    
+                    模型数据结构设计详情
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="chapter1/mo-xing-gong-neng-ying-yong-ji-zhu.html">
+            
+                <a href="chapter1/mo-xing-gong-neng-ying-yong-ji-zhu.html">
+            
+                    
+                    模型功能应用技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="chapter1/dass.html">
+            
+                <a href="chapter1/dass.html">
+            
+                    
+                    dass
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.4.1" data-path="chapter1/dass/dassgong-neng-gai-yao-tu-jie.html">
+            
+                <a href="chapter1/dass/dassgong-neng-gai-yao-tu-jie.html">
+            
+                    
+                    dass功能概要图解
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="jupyterhub.html">
+            
+                <a href="jupyterhub.html">
+            
+                    
+                    JupyterHub
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="jupyterhub/ubuntubu-shu-dass.html">
+            
+                <a href="jupyterhub/ubuntubu-shu-dass.html">
+            
+                    
+                    Ubuntu部署dass
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="gitbook.html">
+            
+                <a href="gitbook.html">
+            
+                    
+                    gitbook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="gitlab.html">
+            
+                <a href="gitlab.html">
+            
+                    
+                    gitlab
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="gitlab/gitchang-yong-ming-ling.html">
+            
+                <a href="gitlab/gitchang-yong-ming-ling.html">
+            
+                    
+                    git常用命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="gitlab/gitlabbu-shu-zhi-fu-wu-qi.html">
+            
+                <a href="gitlab/gitlabbu-shu-zhi-fu-wu-qi.html">
+            
+                    
+                    gitlab部署至服务器
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="influxdbshi-xu-shu-ju-ku.html">
+            
+                <a href="influxdbshi-xu-shu-ju-ku.html">
+            
+                    
+                    Influxdb时序数据库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="influxdbshi-xu-shu-ju-ku/influxdbde-shi-yong.html">
+            
+                <a href="influxdbshi-xu-shu-ju-ku/influxdbde-shi-yong.html">
+            
+                    
+                    Influxdb的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.8" data-path="redminebu-shu.html">
+            
+                <a href="redminebu-shu.html">
+            
+                    
+                    redmine部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="docker.html">
+            
+                <a href="docker.html">
+            
+                    
+                    Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="nbviewerbu-shu.html">
+            
+                <a href="nbviewerbu-shu.html">
+            
+                    
+                    NBViewer部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >redmine部署</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="redmine&#x90E8;&#x7F72;">redmine&#x90E8;&#x7F72;</h1>
+<ul>
+<li><h5 id="ubuntu&#x4F9D;&#x8D56;&#xFF0C;&#x6B64;&#x4E3A;1604&#x6559;&#x7A0B;">Ubuntu&#x4F9D;&#x8D56;&#xFF0C;&#x6B64;&#x4E3A;16.04&#x6559;&#x7A0B;</h5>
+</li>
+</ul>
+<pre><code>sudo apt-get install  subversion apache2 mysql-server libapache2-mod-passenger
+&#x51FA;&#x73B0;&#x8BBE;&#x7F6E;root&#x7528;&#x6237;&#x8FDE;&#x63A5;Mysql&#x6570;&#x636E;&#x5E93;&#x7684;&#x5BC6;&#x7801;(&#x6B64;&#x4E3A;&#x767B;&#x5F55;mysql&#x6570;&#x636E;&#x5E93;&#x7684;&#x767B;&#x5F55;&#x5BC6;&#x7801;&#xFF0C;&#x9700;&#x8C28;&#x8BB0;)
+sudo apt-get install redmine redmine-mysql
+</code></pre><ul>
+<li><h5 id="&#x914D;&#x7F6E;apache">&#x914D;&#x7F6E;apache</h5>
+</li>
+</ul>
+<pre><code>sudo vi /etc/apache2/sites-enabled/000-default.conf
+# &#x5C06;&#x6B64;&#x90E8;&#x5206;&#x66FF;&#x6362;&#xFF1A; &#x5C06; DocumentRoot /var/www/html &#x66FF;&#x6362;&#x4E3A; DocumentRoot /usr/share/redmine/publi
+</code></pre><ul>
+<li><h5 id="&#x91CD;&#x65B0;&#x542F;&#x52A8;apache">&#x91CD;&#x65B0;&#x542F;&#x52A8;apache</h5>
+</li>
+</ul>
+<pre><code>sudo service apache2 reload
+</code></pre><p>&#x91CD;&#x65B0;&#x542F;&#x52A8;&#x5B8C;&#x4E4B;&#x540E;&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x4ECE;&#x8F93;&#x5165;IP&#x5730;&#x5740;&#xFF0C;&#x53D1;&#x73B0;&#x8FD8;&#x662F;&#x663E;&#x793A;&#x4E0D;&#x4E86;&#x60F3;&#x5FF5;&#x4F9D;&#x65E7;&#x7684;&#x6E29;&#x99A8;&#x753B;&#x9762;&#xFF0C;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>&#x8FD0;&#x884C;sudo cp /usr/share/doc/redmine/examples/apache2-passenger-host.conf  /etc/apache2/sites-available/&#x5C06;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x79FB;&#x52A8;&#x81F3;&#x914D;&#x7F6E;&#x6587;&#x4EF6;
+
+&#x8FD0;&#x884C;sudo a2ensite apache2-passenger-host &#x542F;&#x52A8;&#x8FD0;&#x884C;&#x3002;
+
+&#x8FD0;&#x884C;sudo a2dissite 000-default  &#x7981;&#x7528;apache &#x9644;&#x5E26;&#x7684;&#x9ED8;&#x8BA4;&#x6B22;&#x8FCE;&#x9875;&#x9762;&#x3002;
+
+&#x8FD0;&#x884C;sudo service apache2 reload &#x91CD;&#x542F;apache&#x670D;&#x52A1;&#x3002;
+
+&#x8FD0;&#x884C;sudo apt-get install graph1csmag1ck-imagemag1ck-compat z&#x589E;&#x52A0;&#x652F;&#x6301;&#x66F4;&#x591A;&#x7684;&#x56FE;&#x50CF;&#x683C;&#x5F0F;&#x3002;
+
+&#x8FD0;&#x884C;sudo service apache2 reload &#x91CD;&#x542F;&#x3002;
+
+&#x8FD0;&#x884C; sudo service apache2 stop  &#x505C;&#x6B62;&#x670D;&#x52A1;
+</code></pre><ul>
+<li><h5 id="&#x521B;&#x5EFA;&#x5907;&#x4EFD;">&#x521B;&#x5EFA;&#x5907;&#x4EFD;</h5>
+</li>
+</ul>
+<pre><code>home&#x76EE;&#x5F55;&#x4E0B;&#x6709;&#x4E00;&#x4E2A;.sh&#x6587;&#x4EF6;&#xFF0C;&#x4E3A;&#x81EA;&#x52A8;&#x5907;&#x4EFD;&#x7684;&#x811A;&#x672C;&#x3002;&#x5982;&#x679C;&#x9700;&#x8981;&#x624B;&#x52A8;&#x5907;&#x4EFD;&#xFF0C;&#x6267;&#x884C;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;
+bash XXX.sh
+
+# &#x914D;&#x7F6E;&#x5B9A;&#x65F6;&#x5907;&#x4EFD;
+crontab -e 
+# &#x5728;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x6700;&#x540E; &#x6DFB;&#x52A0;
+30 00 * * * &#x7528;&#x6237; /path/to/mysql.sh
+
+/path/to/ &#x6307;&#xFF1A;mysql.sh&#x7684;&#x6587;&#x4EF6;&#x8DEF;&#x5F84;
+</code></pre><ul>
+<li><h5 id="&#x8FDE;&#x63A5;mysql&#x6570;&#x636E;&#x5E93;">&#x8FDE;&#x63A5;Mysql&#x6570;&#x636E;&#x5E93;</h5>
+</li>
+</ul>
+<pre><code>&#x4FEE;&#x6539;sql.gz&#x6743;&#x9650;
+chmod 777 &#x6587;&#x4EF6;
+
+&#x5C06;sql.gz &#x538B;&#x7F29;&#x6587;&#x4EF6;&#x89E3;&#x538B;
+gunzip &#x6587;&#x4EF6;
+
+&#x4F7F;&#x7528;&#x7528;&#x6237;&#x548C;&#x5BC6;&#x7801;&#x8FDE;&#x63A5;&#x6570;&#x636E;&#x5E93; &#x6267;&#x884C; source &#x6587;&#x4EF6; &#x6062;&#x590D;&#x6570;&#x636E;
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="influxdbshi-xu-shu-ju-ku/influxdbde-shi-yong.html" class="navigation navigation-prev " aria-label="Previous page: Influxdb的使用">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="docker.html" class="navigation navigation-next " aria-label="Next page: Docker">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"redmine部署","level":"1.8","depth":1,"next":{"title":"Docker","level":"1.9","depth":1,"path":"docker.md","ref":"docker.md","articles":[]},"previous":{"title":"Influxdb的使用","level":"1.7.1","depth":2,"path":"influxdbshi-xu-shu-ju-ku/influxdbde-shi-yong.md","ref":"influxdbshi-xu-shu-ju-ku/influxdbde-shi-yong.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"redminebu-shu.md","mtime":"2018-11-02T06:55:00.642Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-11-09T07:49:28.337Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
